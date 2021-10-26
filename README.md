@@ -1,4 +1,4 @@
-# data_structure_and_algos
+# data-structure-and-algos
 
 Leet Code Problems: Easy, Medium, Hard
 
