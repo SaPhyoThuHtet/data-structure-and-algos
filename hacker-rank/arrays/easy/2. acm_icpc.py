@@ -30,3 +30,12 @@ def acmTeam(topic):
             elif(summation == maximum):
                 max_val  +=1 
     return [maximum, max_val]
+
+
+'''I would like to update the code.
+
+Instead of chaning from 2 to 1, count the number of '0' and then subtract from the total numbers subjects.
+
+summation = str(int(topic[i])+int(topic[j]))
+
+summation = len(summation) - summation.count('0')'''
