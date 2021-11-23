@@ -1,3 +1,4 @@
+# Encryption
 def encryption(s):
     # Write your code here
     s = re.sub(r' ', r'', s)
