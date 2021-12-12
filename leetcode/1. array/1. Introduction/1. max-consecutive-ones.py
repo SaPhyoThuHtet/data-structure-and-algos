@@ -32,6 +32,19 @@ class Solution(object):
         nums.append(0)
         
         max_num = 0
+        count_one = 0"""
+ 
+ # 3. nums.append ကို ဖြုတ်ပြီး နောက်ဆုံးကောင်နဲ့ if condition ဖြုတ်ပြီး ပြန်စစ်တဲ့အခါ အချိန်က ပိုသက်သာသွားတယ်။
+"""class Solution(object):
+    def findMaxConsecutiveOnes(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        
+        #nums.append(0)
+        
+        max_num = 0
         count_one = 0
         
         for i in nums:
@@ -41,6 +54,19 @@ class Solution(object):
                 if(count_one>max_num):
                     max_num = count_one
                 count_one = 0
+                
+        if(count_one > max_num):
+            max_num = count_one
+                
+        return max_num
+        
+        for i in nums:
+            if (i == 1):
+                count_one +=1
+            else:
+                if(count_one>max_num):
+                    max_num = count_one
+                count_one = 0"""
                 
         return max_num
 """
