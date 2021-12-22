@@ -1,4 +1,4 @@
-# Python Built-in
+# Basic Data Type
 
 1. Hello World
 2. If/Else
