@@ -1,4 +1,4 @@
-# Approach 1 (Time Complexity: O(n), Space Complexity: O(1) )
+# Approach 1 (Time Complexity: O(n), Space Complexity: O(n) )
 # class Node:
 #   def __init__(self, val):
 #     self.val = val
