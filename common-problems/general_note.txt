@@ -1,0 +1,4 @@
+Two pointers က sorting စီထားတဲ့ဟာတွေဆို အသုံးဝင်တယ်။
+2 Sum Problems ကို Dicitionary ဆောက်ပြီး ဖြေရှင်းလို့ရတယ်။ Two Pointers သုံးလည်းရတယ်။
+Duplicates Remove ဆိုရင် Sorted ဆိုရင် Pointers နဲ့ သွားလို့ရတယ်။
+Rotate Problems  တွေ ဆိုရင် Reverse နဲ့ စဥ်းစားလို့ရတယ်။
