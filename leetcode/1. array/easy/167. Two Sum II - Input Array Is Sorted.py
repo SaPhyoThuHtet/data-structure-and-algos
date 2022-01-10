@@ -28,3 +28,25 @@ class Solution:
             else:
                 end -= 1
                 
+                
+# Binary Search, Time Complexity O(nlog(n)), Space Complexity: 1               
+class Solution:
+    def twoSum(self, numbers: List[int], target: int) -> List[int]:
+        
+        for i in range (len(numbers)):
+            find = target-numbers[i]
+            start = i+1
+            end = len(numbers)-1
+            
+            while (start<=end):
+                mid = int((start+end)/2)
+                
+                if (numbers[mid] == find):
+                    return [i+1, mid+1]
+                
+                elif(numbers[mid]<find):
+                    start = mid+1
+                    
+                else:
+                    end = mid -1
+                
