@@ -34,7 +34,7 @@ class Solution:
         #print("L",left_arr)
         #print("R", right_arr)
     
-        while (l_index < len(left_arr) and r_index < len(right_arr)):
+        while (l_index < len(left_arr) and r_index < len(right_arr)): #ဒီနားလွဲတတ်လို့ သတိထားပါ။
             if (left_arr[l_index] < right_arr[r_index]):
                 results.append(left_arr[l_index])
                 l_index += 1
