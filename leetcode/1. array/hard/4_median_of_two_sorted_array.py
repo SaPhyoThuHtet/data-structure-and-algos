@@ -1,4 +1,6 @@
-# ဒီမှာတော့ Merge Sort ကို သုံးပြီး ဖြေရှင်းထားတာ။ Merge Sort ကတော့ Time Complexity O(nlogn) ရှိတယ်။ ဒီ့ထက်ပိုကောင်းအောင်တော့ ရေးလို့ရသေးတယ်။
+""" ဒီမှာတော့ Merge Sort ကို သုံးပြီး ဖြေရှင်းထားတာ။ Merge Sort ကတော့ Time Complexity O(nlogn) ရှိတယ်။ ဒီ့ထက်ပိုကောင်းအောင်တော့ ရေးလို့ရသေးတယ်။ 
+ဘယ်နေရာမှာ သုံးလို့ရသေးလဲ။ ။ Merge Sort
+"""
 
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
