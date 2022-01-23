@@ -1,3 +1,4 @@
+""" ဒီproblem က မိုက်တယ် ရိုးရိုး naive approach နဲ့ သွားလို့ရပေမယ့် Time Complexity က များတယ်။ Left Index နဲ့ Right Index ကို ထားပြီး Two pointer  approach နဲ့ ဖြေရှင်းတဲ့အခါ Time Complexity က O(n) ပဲ ရှိတော့တယ်။"""
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         
