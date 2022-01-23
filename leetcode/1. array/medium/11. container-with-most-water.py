@@ -1,6 +1,9 @@
 """ ဒီproblem က မိုက်တယ် ရိုးရိုး naive approach နဲ့ သွားလို့ရပေမယ့် Time Complexity က များတယ်။ Left Index နဲ့ Right Index ကို ထားပြီး Two pointer  approach နဲ့ ဖြေရှင်းတဲ့အခါ Time Complexity က O(n) ပဲ ရှိတော့တယ်။
 စဥ်းစားရတဲ့ နေရာက Left Index နဲ့ Right Index ကို ဘယ်အချိန်ရွေ့မလဲ။(Ans: Code ကိုကြည့်ပါ)။ left index နဲ့ right index မှာရှိတဲ့ တန်ဖိုးတွေ တူနေတဲ့ ကိစကို မရဘူးဆိုပြီး စဉ်းစားမိသေးတယ် 
-ဒါပေမယ့် else ဆိုရင်ကို right index ကိုရွေ့နေပြီမို့  ပုံမှန်အတိုင်းပဲ ဆက်လုပ်ယုံပဲ။"""
+ဒါပေမယ့် else ဆိုရင်ကို right index ကိုရွေ့နေပြီမို့  ပုံမှန်အတိုင်းပဲ ဆက်လုပ်ယုံပဲ။
+
+ဘယ်မှာသုံးလို့ရလဲ။ ။ မသိသေး။
+"""
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         
