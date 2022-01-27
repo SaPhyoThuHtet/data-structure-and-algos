@@ -5,11 +5,16 @@ class Node:
         self.left = None
         self.right = None
         
-    
-    
-a = Node("a")
-b = Node("b")
-c = Node("c")
+a = Node('a')
+b = Node('b')
+c = Node('c')
+d = Node('d')
+e = Node('e')
+f = Node('f')
+
 
 a.left = b
 a.right = c
+a.left = d
+b.right = e
+c.right = f
