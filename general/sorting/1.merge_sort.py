@@ -23,7 +23,7 @@ def merge(l,r):
     index_l = 0
     index_r = 0
     #print(l,r)
-    while (i < min(len(l), len(r)) ):
+    while (i < min(len(l), len(r)) ):#ဒီနား Update လုပ်ဖို့ လိုသေးတယ်။
         #print(index_l)
         if (l[index_l] < r[index_r]):
             result.append(l[index_l])
