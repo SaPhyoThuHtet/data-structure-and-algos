@@ -2,7 +2,7 @@
 
 
 
-# 1. Naive Approach, Time Complexity - O(n-k+1) # by me
+# 1. Naive Approach, Time Complexity -  O((n-k+1)*k) #by me
 class Solution:
     def findMaxAverage(self, nums: List[int], k: int) -> float:
         max_avg = 0
