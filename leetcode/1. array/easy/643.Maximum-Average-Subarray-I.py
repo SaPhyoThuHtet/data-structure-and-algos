@@ -17,4 +17,16 @@ class Solution:
                 max_avg = avg
         return max_avg
 
+# 2. Naive Approach, max_avg = float('-inf')
 
+class Solution:
+    def findMaxAverage(self, nums: List[int], k: int) -> float:
+        max_avg = float('-inf')
+        
+        for i in range (len(nums)-k+1):
+            avg =  sum(nums[i:i+k])/k
+            print(nums[i:i+k])
+            print(avg)
+            if (avg > max_avg):
+                max_avg = avg
+        return max_avg
