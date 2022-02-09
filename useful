@@ -3,3 +3,6 @@ Rotate Array က အသုံးဝင်မယ် ထင်တယ်။ String 
 Sliding Windows က ngrams နဲ့ လုပ်တဲ့  program တွေမှာ တော်တော်လေး efficient ဖြစ်စေမယ် လို့ထင်တယ်။ https://github.com/SaPhyoThuHtet/data-structure-and-algos/blob/main/leetcode/1.%20array/easy/643.Maximum-Average-Subarray-I.py
 
 Searching Text ရေးကြည့် အသုံးဝင်မယ်လို့ယုံကြည်တယ်။
+
+
+Merge Sort ကိုက သိထားတော့ Searching မှာ ကိုယ့်ဘာသာကိုယ်ရေးလို့ အဆင်ပြေတယ်။ Merge Sort ကိုလည်း ပြန်ကြည့်တာ ပြန်လေ့ကျင့်တာမျိုးလဲ လုပ်ပါ။
