@@ -1,4 +1,5 @@
-Remove လုပ်တာကို Inplace Solution သုံးတာကလည်း အသုံးဝင်မယ်။
+Remove လုပ်တာကို Inplace Solution သုံးတာကလည်း အသုံးဝင်မယ်။ ဥပမာ "က" ဆိုတဲ့ စကားလုံးကို string ထဲကနေ ဖြုတ်ပါ ဆိုရင် array အသစ်ထပ်ဆောက်နေစရာမလိုဘူး။ Inplace ဖြုတ်လိုက်ရုံပဲ။
+ထပ်နေတဲ့ စာကြောင်းတွေကို ဖြုတ်တာမှာလည်း ဒီapproach က အသုံးဝင်တယ် (Sorting တော့ စီထားရမှာပေါ့: It will be a little difficult for burmese)။ 
 
 Rotate Array က အသုံးဝင်မယ် ထင်တယ်။ String တွေကို Rotate လုပ်တဲ့ ပုံစံမျိုးပေါ့။ တစ်ခုခုကို Rotate လုပ်တဲ့အခါ Naive Approach နဲ့သွားစရာမလိုတော့ ဘူးပေါ့။
 
