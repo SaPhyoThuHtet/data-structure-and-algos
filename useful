@@ -1,16 +1,28 @@
-https://leetcode.com/problems/find-all-duplicates-in-an-array/က ကျိန်းသေပေါက် အသုံးဝင်တယ် ပုံမှန်ဆို set နဲ့ uniques elements ကို ရှာ ပြီးရင် အဲ့တာနဲ့
+Array
+1. https://leetcode.com/problems/find-all-duplicates-in-an-array/က ကျိန်းသေပေါက် အသုံးဝင်တယ် ပုံမှန်ဆို set နဲ့ uniques elements ကို ရှာ ပြီးရင် အဲ့တာနဲ့
 တစ်ခုချင်းစီကို count လုပ်ပြီး တိုက်စစ်နေရတာ။ (Idea Sorting လုပ်မယ် index = 0 ကနေစမယ် နောက်က ကောင်နဲ့ မတူရင် array ထဲထည့်မယ် နောက်ဆုံးတစ်ခုအတွက်ကတော့ သက်သက်စစ်ရမယ်။ (It worked)
+2. Remove လုပ်တာကို Inplace Solution သုံးတာကလည်း အသုံးဝင်မယ်။ ဥပမာ "က" ဆိုတဲ့ စကားလုံးကို string ထဲကနေ ဖြုတ်ပါ ဆိုရင် array အသစ်ထပ်ဆောက်နေစရာမလိုဘူး။ Inplace ဖြုတ်လိုက်ရုံပဲ။
+ထပ်နေတဲ့ စာကြောင်းတွေကို ဖြုတ်တာမှာလည်း ဒီapproach က အသုံးဝင်တယ် (Sorting တော့ စီထားရမှာပေါ့: It will be a little difficult for burmese)။
+3. Remove Duplicates
+3. Rotate Array က အသုံးဝင်မယ် ထင်တယ်။ String တွေကို Rotate လုပ်တဲ့ ပုံစံမျိုးပေါ့။ တစ်ခုခုကို Rotate လုပ်တဲ့အခါ Naive Approach နဲ့သွားစရာမလိုတော့ ဘူးပေါ့။
+4. Sliding Windows က ngrams နဲ့ လုပ်တဲ့  program တွေမှာ တော်တော်လေး efficient ဖြစ်စေမယ် လို့ထင်တယ်။ https://github.com/SaPhyoThuHtet/data-structure-and-algos/blob/main/leetcode/1.%20array/easy/643.Maximum-Average-Subarray-I.py
+5. Two sum, Three sum နဲ့ Four Sum Problems ​တွေက လုပ်ကို လုပ်ထားသင့်တယ်။
+. Container with most water ကိုလည်း ​ဖြေရှင်းထားတယ်​နော်။ အဲ့တာက ဘယ်မှာ သုံးလို့ ရမလဲ​တော့ မသိဘူး။ But it would be useful.
 
 
-Remove လုပ်တာကို Inplace Solution သုံးတာကလည်း အသုံးဝင်မယ်။ ဥပမာ "က" ဆိုတဲ့ စကားလုံးကို string ထဲကနေ ဖြုတ်ပါ ဆိုရင် array အသစ်ထပ်ဆောက်နေစရာမလိုဘူး။ Inplace ဖြုတ်လိုက်ရုံပဲ။
-ထပ်နေတဲ့ စာကြောင်းတွေကို ဖြုတ်တာမှာလည်း ဒီapproach က အသုံးဝင်တယ် (Sorting တော့ စီထားရမှာပေါ့: It will be a little difficult for burmese)။ 
-
-Rotate Array က အသုံးဝင်မယ် ထင်တယ်။ String တွေကို Rotate လုပ်တဲ့ ပုံစံမျိုးပေါ့။ တစ်ခုခုကို Rotate လုပ်တဲ့အခါ Naive Approach နဲ့သွားစရာမလိုတော့ ဘူးပေါ့။
-
-Sliding Windows က ngrams နဲ့ လုပ်တဲ့  program တွေမှာ တော်တော်လေး efficient ဖြစ်စေမယ် လို့ထင်တယ်။ https://github.com/SaPhyoThuHtet/data-structure-and-algos/blob/main/leetcode/1.%20array/easy/643.Maximum-Average-Subarray-I.py
-
-Searching Text ရေးကြည့် အသုံးဝင်မယ်လို့ယုံကြည်တယ်။
-
-
-Merge Sort ကိုက သိထားတော့ Searching မှာ ကိုယ့်ဘာသာကိုယ်ရေးလို့ အဆင်ပြေတယ်။ Merge Sort ကိုလည်း ပြန်ကြည့်တာ ပြန်လေ့ကျင့်တာမျိုးလဲ လုပ်ပါ။ Find Median of Sorted Array problem လိုမျိုးက Hard  Problem Merge Sort သုံးတာမျိုးက အဆင်ပြေတယ်။
+Sorting
+1. Merge Sort ကိုက သိထားတော့ Searching မှာ ကိုယ့်ဘာသာကိုယ်ရေးလို့ အဆင်ပြေတယ်။ Merge Sort ကိုလည်း ပြန်ကြည့်တာ ပြန်လေ့ကျင့်တာမျိုးလဲ လုပ်ပါ။ Find Median of Sorted Array problem လိုမျိုးက Hard  Problem Merge Sort သုံးတာမျိုးက အဆင်ပြေတယ်။
 https://leetcode.com/problems/median-of-two-sorted-arrays/
+
+String
+1. Searching Text ကို လုပ်သင့်တယ်။
+
+
+Tree
+1. Traversal အမျိုးမျိုးကို လုပ်ထားသင့်ပြီး Recursion Code ပါ တစ်ခါတည်း သုံးသင့်တယ်။
+2. Invert Tree
+3. Depth First Values နဲ့ Breadth First Values က​တော့ ​ကောင်း​ကောင်းရ​နေပြီ။ 
+Stack and Queue Concepts ကိုသုံးတယ်။ ဒါ​တော်​တော်​​လေး အသုံးဝင်လိမ့်မယ်။
+
+Recursion and Dynamic Programming
+
