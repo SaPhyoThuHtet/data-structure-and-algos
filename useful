@@ -22,7 +22,7 @@ Tree
 1. Traversal အမျိုးမျိုးကို လုပ်ထားသင့်ပြီး Recursion Code ပါ တစ်ခါတည်း သုံးသင့်တယ်။
 2. Invert Tree
 3. Depth First Values နဲ့ Breadth First Values က​တော့ ​ကောင်း​ကောင်းရ​နေပြီ။ 
-Stack and Queue Concepts ကိုသုံးတယ်။ ဒါ​တော်​တော်​​လေး အသုံးဝင်လိမ့်မယ်။
+Stack and Queue Concepts ကိုသုံးတယ်။ ဒါ​တော်​တော်​​လေး အသုံးဝင်လိမ့်မယ်။ Recursion လည်းသုံးတတ်ပြီ။ Text Tree ကြီးမှာမှ Depth First  ပုံစံရချင်တယ် Breadth First ပုံစံရှာချင်တယ် Depth First ပုံစံရှာချင်တယ်ဆို အဆင်ပြေတယ်။
 
 Recursion and Dynamic Programming
 
