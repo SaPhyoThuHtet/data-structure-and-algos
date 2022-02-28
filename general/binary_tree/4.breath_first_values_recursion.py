@@ -31,6 +31,42 @@ class Node:
                 
             
             
+   class Node:
+    
+    def __init__(self, val):
+        self.val = val
+        self.left = None
+        self.right = None
+        
+        
+    def depth_first_values_recursion(self, node):
+        
+        if (node == None):
+            return []
+
+            
+        return [node.val]+self.depth_first_values_recursion(node.left)+self.depth_first_values_recursion(node.right)                
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+a = Node ('a')
+b = Node('b')
+c = Node('c')
+d = Node('d')
+
+a.left = b
+a.right = c
+b.right = d
+
+
+print(a.depth_first_values_recursion(a))
             
             
             
