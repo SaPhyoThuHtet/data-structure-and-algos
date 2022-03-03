@@ -13,3 +13,34 @@ Video သာ ကြည့်လိုက်ပြီး Trace လိုက်ပ
 Elements အရေအတွက်ကို Count လုပ်မယ်။ ပြီးရင် သူ့နံပါတ်ရောက်ရင် Process လုပ် ဒါပဲ။
 
 
+# ခုCode မှာ ရလိုက်တာတွေကတော့ အများကြီးပဲ။ Dummy.next ကို Return ပြန်တာရော။
+# Visualization က အရေးကြီးတယ် ဆိုတာကော နောက်ဆုံးnth node ကို သိဖို့ရာ ခုလို Concept ကလည်းပဲ တော်တော် အသုံးဝင်တယ် ဆိုတာကိုရော သိလိုက်ရတယ်။
+
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution:
+    def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
+        dummy = ListNode()
+        dummy.next = head
+        
+        slow = dummy
+        fast = head
+        
+        while (n>0):
+            fast = fast.next
+            n -=1
+            
+        
+        while (fast): # Until fast reaches the end of the list
+            slow = slow.next
+            fast = fast.next
+            
+            
+        slow.next = slow.next.next
+        
+        return dummy.next
+        
+        
