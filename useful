@@ -16,7 +16,9 @@ String
 Linked List
 Linked List တွေမှာ ခနခန ဖြစ်တဲ့ ပြသနာကတော့ ဘယ်ကောင်ကို Return ပြန်ရမလဲ ဒွိဟ ဖြစ်တာပါ။ အဲ့ အပိုင်းကို သေချာလေး လုပ်သင့်တယ်။
 1. Remove Nth Node from End of list ကို Two Pointers  နဲ့ သုံးတာကလည်း တော်တော် အသုံးဝင်တယ်။
-
+https://github.com/SaPhyoThuHtet/data-structure-and-algos/blob/main/for%20car/3.%20Linked-List/1.%20remove_nth_node_from_end_of_list.py
+ဒီ Concept ကို nth node ကို array နဲ့ string မှာ Remove လုပ်တဲ့နေရာမှာ သုံးလည်း ရတယ်။ But array တွေ string တွေမှာကျ Len က သိရတော့ ပုံမှန် Approach က ပို အဆင်ပြေပါတယ်။
+But ဒီတိုင်းလေး လည်း ရေးကြည့်ပါ။
 
 Sorting
 1. Merge Sort ကိုက သိထားတော့ Searching မှာ ကိုယ့်ဘာသာကိုယ်ရေးလို့ အဆင်ပြေတယ်။ Merge Sort ကိုလည်း ပြန်ကြည့်တာ ပြန်လေ့ကျင့်တာမျိုးလဲ လုပ်ပါ။ Find Median of Sorted Array problem လိုမျိုးက Hard  Problem Merge Sort သုံးတာမျိုးက အဆင်ပြေတယ်။
