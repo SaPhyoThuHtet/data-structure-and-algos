@@ -15,7 +15,7 @@ String
 
 Linked List
 Linked List တွေမှာ ခနခန ဖြစ်တဲ့ ပြသနာကတော့ ဘယ်ကောင်ကို Return ပြန်ရမလဲ ဒွိဟ ဖြစ်တာပါ။ အဲ့ အပိုင်းကို သေချာလေး လုပ်သင့်တယ်။ 
-Linked List မှာ မှတ်ထားရမှာက two pointers approach တွေက တော်တော် အသုံးဝင်တယ်။
+Linked List မှာ မှတ်ထားရမှာက two pointers approach တွေက တော်တော် အသုံးဝင်တယ်။ ပြီးတော့ dummy node trickပဲ။
 
 1. Remove Nth Node from End of list ကို Two Pointers  နဲ့ သုံးတာကလည်း တော်တော် အသုံးဝင်တယ်။
 https://github.com/SaPhyoThuHtet/data-structure-and-algos/blob/main/for%20car/3.%20Linked-List/1.%20remove_nth_node_from_end_of_list.py
