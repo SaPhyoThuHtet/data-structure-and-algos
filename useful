@@ -29,8 +29,9 @@ https://leetcode.com/problems/median-of-two-sorted-arrays/
 
 
 Tree
-1. Traversal အမျိုးမျိုးကို လုပ်ထားသင့်ပြီး Recursion Code ပါ တစ်ခါတည်း သုံးသင့်တယ်။
-2. Invert Tree
+1. Traversal အမျိုးမျိုးကို လုပ်ထားသင့်ပြီး Recursion Code ပါ တစ်ခါတည်း သုံးသင့်တယ်။ (Traversal မှာ Stack /Que တွေကော Recursion ကိုပါ ကောင်းကောင်းသုံးတတ်တယ်။
+  Recursion နဲ့ဆို Code က တော်တော်လေး Simple ဖြစ်တယ်။)
+2. Invert Tree (Very Easy, With both Stack and Recursion)
 3. Depth First Values နဲ့ Breadth First Values က​တော့ ​ကောင်း​ကောင်းရ​နေပြီ။ 
 Stack and Queue Concepts ကိုသုံးတယ်။ ဒါ​တော်​တော်​​လေး အသုံးဝင်လိမ့်မယ်။ Recursion လည်းသုံးတတ်ပြီ။ Text Tree ကြီးမှာမှ Depth First  ပုံစံရချင်တယ် Breadth First ပုံစံရှာချင်တယ် Depth First ပုံစံရှာချင်တယ်ဆို အဆင်ပြေတယ်။
 
