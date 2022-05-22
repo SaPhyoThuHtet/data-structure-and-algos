@@ -8,4 +8,4 @@ Common Problems: Problems like Fibonannci, Palindrome, general
 
 
 
-General: Data Structure like Linked List, Binary Tree
+General: Data Structure like Linked List, Binary Tree, Graph
